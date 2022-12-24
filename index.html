@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microverse</title>
-    <link rel="stylesheet" href="style.css" class="css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Microverse portfolio </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-</head>
-<body>
-        <nav id="navbar"><div class="navlinks">
+  <body>
+    <nav id="navbar">
 
-            <a href="#"">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="#welcome-section">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+
+        </ul>
     </nav>
-      <div data-aos="fade-up" > <section id="welcome-section">    <h1>Hello World, We are Software Developers.</h1>
-    
-    
-    </div>
-<p> from Microverse</p>
-          </section>
-        
-          <section id="projects">
-        <div class="project-title">
-<p></p>        
-          </div>
-       <div class="heading">
-        <h1>These are some of our Projects</h1>
-       </div> 
-       <div class ="colored-box">
-        <img class="image"src="Screenshot_12.jpg">
-       </div>
-       <a  class="p1head"href="https://github.com/harshi0102/food-website1"><h4>Follow this link:Food Website</h4></a>
 
-            </section>
-            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-            <script>
-                AOS.init();
-              </script>
-</body>
+    <section id="welcome-section">
+        <h1>Hello World, we are software developers!</h1>
+        <p>from Microverse</p>
+    </section>
+
+
+
+    <section id="projects">
+
+      <h1 class="projects-title">Some of our projects</h1>
+      <ul class="projects-grid">
+        <a href="https://github.com/harshi0102/food-website1" target="_blank" ><li class="project-tile"><img class="project-img" src="Screenshot_12.jpg"><p class="project-title">Food Website</p></li></a>
+        <a href="https://github.com/harshi0102/Spotify-Clone" target="_blank"_bl><li class="project-tile"><img class="project-img" src="Screenshot_14.jpg"><p class="project-title">Spotify Clone</p></li></a>
+        <a href="https://github.com/harshi0102/realestatewebsite"target="_blank"><li class="project-tile"><img class="project-img" src="Screenshot_15.jpg"><p class="project-title">Real estate Website/p></li></a>
+        <a href="https://github.com/harshi0102/photowebwebsite" target="_blank"><li class="project-tile"><img class="project-img" src="Screenshot_16.jpg"><p class="project-title">Photoweb website</p></li></a>
+       
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h1>Let's work together...</h1>
+      <p>How do you take your coffee?</p>
+      <a href="https://github.com/harshi0102" id="profile-link" target="_blank">Harshika's Github Repository</a>
+      <a href="https://github.com/" id="profile-link-2" target="_blank">Emmanuel's Github Repository </a>
+
+    </section>
+
+    <footer id="footer">
+      <p> </p>
+    </footer>
+
+
+    <script  src="js/index.js"></script>
+  </body>
 </html>
